@@ -1,0 +1,151 @@
+body{
+    margin:0px;
+    background-color:grey;
+}
+.input_fields{
+    margin:5px auto;
+    max-width: 800px;    
+}
+input{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+}
+.main{
+    width:80%;
+    height:auto;
+    position:absolute;
+    display:flex;
+    margin-top:60px;
+    margin-left: 120px;
+    padding-bottom: 60px;
+}
+.left{
+    background-color: #fbb03b;
+    width:450px;
+    height:auto;
+    box-shadow:6px 0px 10px burlywood;
+    z-index: 1;
+}
+.right{
+    background-color: whitesmoke;
+    width:570px;
+    height:auto;
+    z-index:-1;
+}
+.picture{
+    height:200px;
+    width:200px;
+    border:10px solid #fbb03b;
+    box-shadow:6px 0px 10px burlywood;
+    border-radius:50%;
+    margin-left:330px;
+}
+.picture img{
+    height:200px;
+    width:200px;
+    border-radius:50%;
+}
+.box{
+    position: relative;
+}
+.heading{
+    background-color: #4d4d4d;
+    padding:5px 20px;
+    color:#fbb03b;
+    text-align: left;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    margin:0px;
+    text-align: center;
+}
+h2{
+    margin:0px;
+    padding-left: 5px;
+}
+.p1{
+    padding-left:10px;
+}
+.icons{
+    padding:10px;
+}
+.line-length{
+    width:90%;
+    background-color: #4d4d4d;
+    margin:10px 10px;
+    border-radius: 5px;
+}
+.line{
+    text-align:right;
+    padding-top:2px;
+    padding-bottom:2px;
+    color:white;
+}
+.html{
+    width:90%;
+    background-color: white;
+    border-radius: 5px;
+}
+.css{
+    width:90%;
+    background-color: white;
+    border-radius: 5px;
+}
+.js{
+    width:80%;
+    background-color: white;
+    border-radius: 5px;
+}
+.rtjs{
+    width:80%;
+    background-color: white;
+    border-radius: 5px;
+}
+.sql{
+    width:90%;
+    background-color: white;
+    border-radius: 5px;
+}
+.name{
+    text-align: center;
+    padding-top:100px;
+    padding-bottom:34px;
+}
+.bsk{
+    color:darkblue;
+    font-size:45px;
+    padding-left: 55px;
+}
+.role{
+    padding-left:50px;
+}
+.headingryt{
+    color:darkblue;
+    padding:5px;
+    text-align: left;
+}
+.group{
+    color:blue;
+}
+span{
+    color:brown;
+}
+.sign{
+    float:right;
+    text-align: center;
+    margin-right: 30px;
+}
+.btn{
+    text-align: center;
+    margin: 2px;
+}
+button{
+    width: 150px;
+    background-color:white;
+    color: black;
+    font-size: 18px;
+    border-radius: 5px;
+}
